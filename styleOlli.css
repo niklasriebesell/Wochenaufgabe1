@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
 
+=======
+>>>>>>> e5459aa640ed7d978c3e374728e03bf65918c361
 .brd{
     border: solid 2px gray;
 }
@@ -13,6 +16,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+<<<<<<< HEAD
     gap: 0.4em;
 }
 
@@ -20,6 +24,15 @@
     font-family: 'Montserrat', sans-serif;/*Hevetica, sans-serif; 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
     font-size: 1.6em;
     /* letter-spacing: 0.04em; */
+=======
+    gap: 0.2em;
+}
+
+.tajam-caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6em;
+    letter-spacing: 0.04em;
+>>>>>>> e5459aa640ed7d978c3e374728e03bf65918c361
     color: rgba(0,255,255, 0.5); 
     /* background: linear-gradient(#64e4e6, #5561e7); */
 }
@@ -27,7 +40,10 @@
 .hero-section-nav{
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
     justify-content: center;
+=======
+>>>>>>> e5459aa640ed7d978c3e374728e03bf65918c361
 }
 
 .hero-section-nav-li{
@@ -51,6 +67,7 @@
     color:rgba(0,255,255, 0.8);   
 }
 
+<<<<<<< HEAD
 li{
     list-style: none;
 }
@@ -59,10 +76,16 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
     margin-top: 5em;
+=======
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+>>>>>>> e5459aa640ed7d978c3e374728e03bf65918c361
     color: white;
     text-align: center;
 }
 
+<<<<<<< HEAD
 .line{
     /* display: inline-block; */
     /* text-align: center; */
@@ -70,6 +93,10 @@ h1{
     margin: 33em;;
     width: 50px;
     border-bottom: solid 1px rgba(0,255,255, 0.8);
+=======
+li{
+    list-style: none;
+>>>>>>> e5459aa640ed7d978c3e374728e03bf65918c361
 }
 
 p{
