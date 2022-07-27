@@ -1,0 +1,204 @@
+.expertise {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  background-color: white;
+  color: black;
+  height: 60vh;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  flex-direction: column;
+}
+
+.expertise p {
+  margin-top: 0px;
+  color: gray;
+  font-size: 1rem;
+}
+.expertise h2 {
+  font-size: 1.8rem;
+}
+
+#underline {
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: lightgray;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-section-top {
+  display: flex;
+  flex-direction: row;
+  border-bottom: solid 0.1rem lightgray;
+}
+
+.card-section-bottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 3rem;
+}
+
+.card:is(:nth-child(1), :nth-child(2), :nth-child(4), :nth-child(5)) {
+  border-right: solid 1px lightgray;
+}
+
+.card p {
+  color: lightgray;
+  font-size: 1rem;
+}
+
+.meet-our-amazin-team {
+  background-image: url("img/bgk-header.png");
+  background-size: cover;
+  height: 60vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-section-header {
+  display: flex;
+  margin-top: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-section-header p {
+  margin: 0rem 0rem 3.5rem 0rem;
+  color: lightgray;
+}
+
+.team-card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  display: flex;
+  flex-direction: column;
+  border: solid 0.1rem lightgray;
+  align-items: center;
+}
+.team-card:is(:nth-child(1), :nth-child(2), :nth-child(3)) {
+  margin-right: 1rem;
+}
+
+.team-card p {
+  margin-top: 0rem;
+  color: lightgray;
+}
+.team-card h4 {
+  margin-bottom: 0.5rem;
+}
+
+.picture {
+  height: 17rem;
+  width: 15rem;
+  background-color: white;
+}
+.hiring-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-top: 2rem;
+}
+
+#hiring-button {
+  border: solid 0.2rem rgb(134, 215, 205);
+  border-radius: 0.3rem;
+  padding: 1.1rem;
+  color: rgb(134, 215, 205);
+}
+.contact-section {
+  display: flex;
+  min-height: 60vh;
+  justify-content: space-around;
+}
+
+.contact-section h2 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-field input {
+  padding: 1rem 8rem;
+  margin-bottom: 1rem;
+  border: solid 0.1rem lightgray;
+  color: lightgray;
+}
+#big-inputbox {
+  padding: 8rem;
+}
+#button {
+  border: solid 0.1rem rgb(134, 215, 205);
+  border-radius: 0.1rem;
+  padding: 1rem 4rem;
+  color: rgb(134, 215, 205);
+  font-weight: bold;
+  background-color: white;
+}
+
+.partner-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.partner-logo-wrapper {
+  display: flex;
+}
+.partner-logo-wrapper img {
+  margin-bottom: 4rem;
+}
+.first-five-logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 4rem;
+}
+
+.last-five-logos {
+  display: flex;
+  flex-direction: column;
+}
+footer {
+  background-image: url(/img/bgk-footer.png);
+  background-size: cover;
+  height: 30vh;
+  display: flex;
+  color: white;
+}
+
+.footer-wrapper-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
