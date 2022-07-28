@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
 
+/* ****************** Hero Section ****************** */
 .hero-section{
     min-height: calc(100vh / 2.3);
     display: flex;
@@ -64,7 +65,7 @@ h1{
     text-align: center;
 }
 
-article{
+.hero-section article{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,7 +76,7 @@ article{
     border-bottom: solid 1px rgba(0,255,255, 0.8);
 }
 
-article p{
+.hero-section>article>p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgba(255,255,255,0.7);
     line-height: 1.5em;
@@ -85,12 +86,61 @@ article p{
     max-width: 1200px;
 }
 
-.btn-learnMore{
-    display: inline-block;
+/* *********** Our Story Section *************** */
+
+.ourstory-section{
+    max-width: 85vw;;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    background-color: white;
+}
+
+
+
+.ourstory-section>article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+}
+
+.ourstory-section>article>p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, 0.493);
+    min-width: 200px;
+    max-width: 1000px;
+}
+
+/*  */
+.watchstory-section{
+    min-height: calc(100vh / 2.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/bgk-middle.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.play-caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.7em;
+    color: white;
+    align-self: ;
+}
+
+/* *********** Button ************************ */
+.btn-learnMore{
+    /* display: inline-block; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-self: center;
+    /* margin-left: 30vw; */
     color:rgba(0,255,255, 0.8);
     letter-spacing: 0.04em;
-    /* align-self: center; */
     margin-bottom: 3em;
     padding: 0.8em 1em;
     border: 1px solid rgba(0,255,255, 0.8);
