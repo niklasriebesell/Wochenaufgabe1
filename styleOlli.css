@@ -1,36 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
 
 /* ****************** Hero Section ****************** */
-.hero-section {
-  min-height: calc(100vh / 2.3);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: url(./img/bgk-header.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.hero-section{
+    /* min-width: 90%; */
+    min-height: 14vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/bgk-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.tajam {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.tajam{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -1%;
 }
 
-.tajam-caption {
-  font-family: "Montserrat", sans-serif; /*Hevetica, sans-serif; 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
-  font-size: 1.6em;
-  /* letter-spacing: 0.04em; */
-  color: rgba(0, 255, 255, 0.5);
-  /* background: linear-gradient(#64e4e6, #5561e7); */
+.tajam-caption{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6em;
+    letter-spacing: 0.04em;
+    color: rgba(0,255,255, 0.5); 
+    /* background: linear-gradient(#64e4e6, #5561e7); */
 }
 
-.hero-section-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-shrink: 2;
-  flex-wrap: wrap;
+.hero-section-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
 }
 
 .hero-section-nav-li {
@@ -55,22 +57,12 @@
   color: rgba(0, 255, 255, 0.8);
 }
 
-li {
-  list-style: none;
-}
 
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 28px;
-  margin-top: 5em;
-  color: white;
-  text-align: center;
-}
+.hero-section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-.hero-section article {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .line {
@@ -91,50 +83,49 @@ h1 {
 
 /* *********** Our Story Section *************** */
 
-.ourstory-section {
-  max-width: 85vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  /* flex-wrap: wrap; */
-  background-color: white;
+
+.ourstory-section{
+    /* min-width: 90%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
 }
 
-.ourstory-section > article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: flex-start; */
+.ourstory-section>article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
 }
 
-.ourstory-section > article > p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  line-height: 1.5em;
-  color: rgba(0, 0, 0, 0.493);
-  min-width: 200px;
-  max-width: 1000px;
+.ourstory-section>article>p{
+    line-height: 1.5em;
+    color: rgba(0, 0, 0, 0.493);
+    min-width: 200px;
+    max-width: 1000px;
 }
 
 /*  */
-.watchstory-section {
-  min-height: calc(100vh / 2.3);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(./img/bgk-middle.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.watchstory-section{
+    min-height: 40vh;
+    /* min-width: 90%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/bgk-middle.png);
+    background-repeat: no-repeat;
+    background-size: cover;    
 }
 
-.play-caption {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 0.7em;
-  color: white;
-  align-self: ;
-}
+.play-caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.7em;
+    letter-spacing: 0.08em;
+    color: white;
+    /* align-self: ; */
+  }
 
 /* *********** Button ************************ */
 .btn-learnMore {
