@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/* *********** Expertise-Section *************** */
 
 .expertise {
   font-size: 62.5%;
   background-color: white;
   color: black;
+
+
+  min-height: 60vh;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -39,17 +44,20 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .card-section-top {
   display: flex;
   flex-direction: row;
   border-bottom: solid 0.1rem lightgray;
+  flex-wrap: wrap;
 }
 
 .card-section-bottom {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -68,12 +76,15 @@
   color: lightgray;
   font-size: 1rem;
 }
-
+/* *********** MEET OUR AMAZING TEAM SECTION *************** */
 .meet-our-amazin-team {
   /* min-width: 90%; */
   background-image: url("img/bgk-header.png");
   background-size: cover;
-  height: 70vh;
+
+  background-repeat: no-repeat;
+  min-height: 60vh;
+
   color: white;
   display: flex;
   /* flex-wrap: wrap; */
@@ -106,6 +117,7 @@
   flex-direction: column;
   border: solid 0.1rem lightgray;
   align-items: center;
+  flex-wrap: wrap;
 }
 .team-card:is(:nth-child(1), :nth-child(2), :nth-child(3)) {
   margin-right: 1rem;
@@ -138,13 +150,16 @@
   padding: 1.1rem;
   color: rgb(134, 215, 205);
 }
+
+/* *********** CONTACT-SECTION *************** */
 .contact-section {
   /* min-width: 90%; */
   background-color: white;
   display: flex;
   min-height: 60vh;
   justify-content: center;
-  /* border: solid 2px red; */
+
+
   flex-wrap: wrap;
 }
 
@@ -157,6 +172,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin-right: 5rem;
+  flex-wrap: wrap;
 }
 .contact-field input {
   padding: 0.8rem 12rem 0.8rem 0.3rem;
@@ -164,6 +180,7 @@
   border: solid 0.1rem lightgray;
   color: rgb(182, 180, 180);
 }
+
 #big-inputbox {
   padding: 0.5rem 12rem 8rem 0.3rem;
 }
@@ -179,6 +196,7 @@
 .partner-wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .partner-logo-wrapper {
   display: flex;
@@ -191,17 +209,20 @@
   flex-direction: column;
   align-items: baseline;
   margin-right: 5rem;
+  flex-wrap: wrap;
 }
 
 .last-five-logos {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 footer {
   /* min-width: 90%; */
   background-image: url(/img/bgk-footer.png);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 30vh;
   color: white;
 }
