@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+/* *********** Expertise-Section *************** */
 
 .expertise {
   font-size: 62.5%;
   background-color: white;
   color: black;
-  height: 60vh;
+  min-height: 60vh;
   display: flex;
   margin-left: 20%;
   margin-right: 20%;
@@ -40,17 +41,20 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .card-section-top {
   display: flex;
   flex-direction: row;
   border-bottom: solid 0.1rem lightgray;
+  flex-wrap: wrap;
 }
 
 .card-section-bottom {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -69,11 +73,11 @@
   color: lightgray;
   font-size: 1rem;
 }
-
+/* *********** MEET OUR AMAZING TEAM SECTION *************** */
 .meet-our-amazin-team {
   background-image: url("img/bgk-header.png");
   background-size: cover;
-  height: 60vh;
+  min-height: 60vh;
   color: white;
   display: flex;
   flex-wrap: wrap;
@@ -104,6 +108,7 @@
   flex-direction: column;
   border: solid 0.1rem lightgray;
   align-items: center;
+  flex-wrap: wrap;
 }
 .team-card:is(:nth-child(1), :nth-child(2), :nth-child(3)) {
   margin-right: 1rem;
@@ -140,7 +145,7 @@
   display: flex;
   min-height: 60vh;
   justify-content: center;
-  border: solid 2px red;
+
   flex-wrap: wrap;
 }
 
@@ -153,6 +158,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin-right: 5rem;
+  flex-wrap: wrap;
 }
 .contact-field input {
   padding: 1rem 8rem;
@@ -160,6 +166,7 @@
   border: solid 0.1rem lightgray;
   color: lightgray;
 }
+
 #big-inputbox {
   padding: 8rem;
 }
@@ -175,6 +182,7 @@
 .partner-wrapper {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 .partner-logo-wrapper {
   display: flex;
@@ -187,12 +195,14 @@
   flex-direction: column;
   align-items: baseline;
   margin-right: 5rem;
+  flex-wrap: wrap;
 }
 
 .last-five-logos {
   display: flex;
   flex-direction: column;
   align-items: baseline;
+  flex-wrap: wrap;
 }
 footer {
   background-image: url(/img/bgk-footer.png);
