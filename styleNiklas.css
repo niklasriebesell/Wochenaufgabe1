@@ -77,6 +77,7 @@
 .meet-our-amazin-team {
   background-image: url("img/bgk-header.png");
   background-size: cover;
+  background-repeat: no-repeat;
   min-height: 60vh;
   color: white;
   display: flex;
@@ -141,6 +142,8 @@
   padding: 1.1rem;
   color: rgb(134, 215, 205);
 }
+
+/* *********** CONTACT-SECTION *************** */
 .contact-section {
   display: flex;
   min-height: 60vh;
@@ -207,6 +210,7 @@
 footer {
   background-image: url(/img/bgk-footer.png);
   background-size: cover;
+  background-repeat: no-repeat;
   height: 30vh;
   display: flex;
   color: white;
