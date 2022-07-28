@@ -1,7 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 .expertise {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   font-size: 62.5%;
   background-color: white;
   color: black;
@@ -10,12 +9,14 @@
   margin-left: 20%;
   margin-right: 20%;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .expertise p {
-  margin-top: 0px;
+  margin-top: 0rem;
   color: gray;
   font-size: 1rem;
+  text-align: center;
 }
 .expertise h2 {
   font-size: 1.8rem;
@@ -31,7 +32,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
   flex-direction: column;
 }
 
@@ -76,6 +76,7 @@
   height: 60vh;
   color: white;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -138,7 +139,9 @@
 .contact-section {
   display: flex;
   min-height: 60vh;
-  justify-content: space-around;
+  justify-content: center;
+  border: solid 2px red;
+  flex-wrap: wrap;
 }
 
 .contact-section h2 {
@@ -148,7 +151,8 @@
 .contact-field {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  margin-right: 5rem;
 }
 .contact-field input {
   padding: 1rem 8rem;
@@ -181,13 +185,14 @@
 .first-five-logos {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  margin-right: 4rem;
+  align-items: baseline;
+  margin-right: 5rem;
 }
 
 .last-five-logos {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
 }
 footer {
   background-image: url(/img/bgk-footer.png);
@@ -222,7 +227,4 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.footer-wrapper-main-right {
 }
