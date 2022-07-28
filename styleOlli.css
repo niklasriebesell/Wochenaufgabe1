@@ -2,7 +2,7 @@
 
 /* ****************** Hero Section ****************** */
 .hero-section{
-    min-width: 90%;
+    /* min-width: 90%; */
     min-height: 14vh;
     display: flex;
     flex-direction: column;
@@ -16,12 +16,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: -1%;
 }
 
 .tajam-caption{
-    font-family: 'Montserrat', sans-serif;/*Hevetica, sans-serif; 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.6em;
-    /* letter-spacing: 0.04em; */
+    letter-spacing: 0.04em;
     color: rgba(0,255,255, 0.5); 
     /* background: linear-gradient(#64e4e6, #5561e7); */
 }
@@ -30,7 +31,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-shrink: 2;
 }
 
 .hero-section-nav-li{
@@ -52,18 +52,6 @@
 
 .hero-section-nav-li>li>a:hover{
     color:rgba(0,255,255, 0.8);   
-}
-
-li{
-    list-style: none;
-}
-
-h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 28px;
-    margin-top: 5em;
-    color: white;
-    text-align: center;
 }
 
 .hero-section article{
@@ -90,9 +78,10 @@ h1{
 /* *********** Our Story Section *************** */
 
 .ourstory-section{
-    min-width: 90%;
+    /* min-width: 90%; */
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: white;
 }
 
@@ -104,7 +93,6 @@ h1{
 }
 
 .ourstory-section>article>p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.5em;
     color: rgba(0, 0, 0, 0.493);
     min-width: 200px;
@@ -114,7 +102,7 @@ h1{
 /*  */
 .watchstory-section{
     min-height: 40vh;
-    min-width: 90%;
+    /* min-width: 90%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,6 +115,7 @@ h1{
 .play-caption{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 0.7em;
+    letter-spacing: 0.08em;
     color: white;
     /* align-self: ; */
 }

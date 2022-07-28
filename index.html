@@ -31,7 +31,7 @@
         </ul>
       </nav>
       <article>
-        <h1>We Are Awesome Creative Agency</h1>
+        <h1 class="c-wh">We Are Awesome Creative Agency</h1>
         <div class="line">_____</div>
         <p>
           This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
@@ -44,7 +44,7 @@
       </article> 
     </section>
     <section class="ourstory-section">
-      <figure class="tajam">
+      <figure>
         <img src="./img/logo-big.svg" width="160" alt="tajam" />
       </figure>
       <article>
@@ -66,7 +66,7 @@
     <section class="watchstory-section">
       <figure class="play">
         <img src="./img/play.png" alt="play" />
-        <figurcaption class="play-caption"><h3>WATCH OUR STORY</h3></figurcaption>
+        <figurcaption class="play-caption"><p>WATCH OUR STORY</p></figurcaption>
       </figure>      
     </section> 
     <section class="expertise">
@@ -212,8 +212,10 @@
     <footer>
       <div class="footer-wrapper-main">
         <div class="footer-wrapper-main-left">
-          <img src="/img/logo.svg" alt="" />
-          <h3>tajam</h3>
+          <figure class="tajam">
+            <img src="./img/logo.svg" alt="tajam" />
+            <figurcaption class="tajam-caption">tajam</figurcaption>
+          </figure>
           <p>
             lorem quis bibendum auctor, nisi elit <br />
             consequat ipsum, nec sagittis sem nibh elit. <br />
@@ -222,21 +224,29 @@
           </p>
         </div>
         <div class="footer-wrapper-main-middle">
-          <img src="/img/big104.svg" alt="" />
-          <p>
-            Ruko cucruk, JI. Radio luar dalem jos <br />
-            No.12-13, Kalideres - Jakarta Barat <br />
-            11480 - Indonesia
-          </p>
-          <img src="/img/phone351.svg" alt="" />
-          <p>(+62) 21-2224 3333</p>
+          <h4>OUR STUDIO</h4>
+          <div class="location">
+            <img src="/img/big104.svg" alt="" width="20" height="20"/>
+            <p>
+              Ruko cucruk, JI. Radio luar dalem jos <br />
+              No.12-13, Kalideres - Jakarta Barat <br />
+              11480 - Indonesia
+            </p>
+          </div>
+          <div class="phone">
+            <img src="/img/phone351.png" width="20" height="20" alt="" />
+            <p>(+62) 21-2224 3333</p>
+          </div>
         </div>
         <div class="footer-wrapper-main-right">
-          <h3>STAY IN TOUCH</h3>
-          <form action="#">
-            <input type="mail" placeholder="Email" />
-            <input id="input-paper" type="image" src="/img/paper122.svg" />
+          <h4>STAY IN TOUCH</h4>
+          <form stay-in-touch action="#">
+              <input id="email" type="email" placeholder="Subcribe our newsletter" />
+            <div class="email-senden">
+              <input id="input-paper" type="image" src="/img/paper122.png" />
+            </div>
           </form>
+        <div class="social-media">
           <img src="/img/facebook.svg" alt="" />
           <img src="/img/twitter.svg" alt="" />
           <img src="/img/dribbble.svg" alt="" />
@@ -245,15 +255,18 @@
           <img src="/img/youtube.svg" alt="" />
         </div>
       </div>
-      <div class="footer-wrapper-buttom">
-        <ul>
-          <li>HELP</li>
-          <li>TERMS & CONDITION</li>
-          <li>PRIVACY</li>
-          <li>Copyright &#169; 2015 - Tajem Creative</li>
-        </ul>
       </div>
+        <nav class="footer-wrapper-bottom">
+          <ul class="footer-bottom-left">         
+            <li>HELP</li>
+            <li>TERMS & CONDITION</li>
+            <li>PRIVACY</li>
+          </ul>
+          <div class="footer-bottom-right">  
+            <p>Copyright &#169; 2015 - Tajem Creative</p>
+          </div>       
+        </nav>
     </footer>
-  </main>
+    </main>
   </body>
 </html>
