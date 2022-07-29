@@ -11,6 +11,7 @@ font-family: 'Hammersmith One', sans-serif;
 
 
 /* ****************** Hero Section ****************** */
+
 .hero-section{
   /* min-width: 90%; */
   min-height: 14vh;
@@ -42,6 +43,7 @@ font-family: 'Hammersmith One', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
+
 }
 
 .hero-section-nav-li{
@@ -65,10 +67,12 @@ font-family: 'Hammersmith One', sans-serif;
   color:rgba(0,255,255, 0.8);   
 }
 
+
 .hero-section article{
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .hero-section article h1{
@@ -94,6 +98,7 @@ font-family: 'Hammersmith One', sans-serif;
 }
 
 /* *********** Our Story Section *************** */
+
 
 .ourstory-section{
   /* min-width: 90%; */
@@ -139,6 +144,7 @@ font-family: 'Hammersmith One', sans-serif;
   color: white;
   /* align-self: ; */
 }
+
 
 /* *********** Button ************************ */
 .btn-learnMore{
