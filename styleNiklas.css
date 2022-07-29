@@ -163,10 +163,10 @@ font-family: "Roboto", sans-serif;
 }
 
 #hiring-button {
-  border: solid 0.1rem rgb(134, 215, 205);
+  border: solid 0.1rem rgba(0, 224, 208, 255);
   border-radius: 0.1rem;
   padding: 1.1rem;
-  color: rgb(134, 215, 205);
+  color: rgba(0, 224, 208, 255);
 }
 
 /* *********** CONTACT-SECTION *************** */
@@ -201,10 +201,10 @@ font-family: "Roboto", sans-serif;
   padding: 0.5rem 12rem 8rem 0.3rem;
 }
 #button {
-  border: solid 0.1rem rgb(134, 215, 205);
+  border: solid 0.1rem rgba(0, 224, 208, 255);
   border-radius: 0.1rem;
   padding: 1rem 4rem;
-  color: rgb(134, 215, 205);
+  color: rgba(0, 224, 208, 255);
   font-weight: bold;
   background-color: white;
 }
