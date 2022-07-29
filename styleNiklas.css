@@ -93,7 +93,7 @@ font-family: "Roboto", sans-serif;
 
 .meet-our-amazin-team {
   /* min-width: 90%; */
-  background-image: url("img/bgk-header.png");
+  background-image: url("img/bgk-header.webp");
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -233,7 +233,7 @@ font-family: "Roboto", sans-serif;
 }
 footer {
   /* min-width: 90%; */
-  background-image: url(/img/bgk-footer.png);
+  background-image: url(img/bgk-footer.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 30vh;
@@ -257,7 +257,6 @@ footer {
   justify-content: center;
 }
 
-
 .social-media {
   margin-top: 8%;
 }
@@ -267,7 +266,6 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-
 
 .location > img {
   align-self: flex-start;
@@ -280,7 +278,6 @@ footer {
   justify-content: space-evenly;
   align-items: center;
 }
-
 
 .phone > img {
   padding-right: 0.8em;
@@ -310,7 +307,6 @@ footer {
   margin-right: 11%;
 }
 
-
 .footer-bottom-left {
   display: flex;
   justify-content: center;
@@ -323,9 +319,7 @@ footer {
   padding: 0 1em;
 }
 
-
 .email-senden {
-
   position: relative;
   display: inline-block;
   top: 0.6em;
@@ -338,7 +332,6 @@ footer {
 }
 
 #email {
-
   color: rgba(255, 255, 255, 0.612);
   background-color: rgba(255, 255, 255, 0);
   padding: 0.6em;
