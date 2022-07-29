@@ -1,25 +1,27 @@
-body{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(214, 217, 219);
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(214, 217, 219);
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
-h1, h2, h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
+h1,
+h2,
+h3 {
+  text-align: center;
 }
 
-.c-wh{
-    color: white;
+.c-wh {
+  color: white;
 }
 
-.app{
-    min-width: 80vw;
-    display: relative;
+.app {
+  min-width: 80vw;
+  display: relative;
 }
+

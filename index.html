@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="styleNiklas.css" />
     <link rel="stylesheet" href="styleOlli.css" />
-    <title>wochenaufgabe1</title>
+    <title>Wochenaufgabe1</title>
   </head>
   <body>
     <main class="app">
@@ -236,8 +236,10 @@
       <footer>
         <div class="footer-wrapper-main">
           <div class="footer-wrapper-main-left">
-            <img src="/img/logo.svg" alt="" />
-            <h3>tajam</h3>
+            <figure class="tajam">
+              <img src="./img/logo.svg" alt="tajam" />
+              <figurcaption class="tajam-caption">tajam</figurcaption>
+            </figure>
             <p>
               lorem quis bibendum auctor, nisi elit <br />
               consequat ipsum, nec sagittis sem nibh elit. <br />
@@ -246,90 +248,56 @@
             </p>
           </div>
           <div class="footer-wrapper-main-middle">
-            <img src="/img/big104.svg" alt="" />
-            <p>
-              Ruko cucruk, JI. Radio luar dalem jos <br />
-              No.12-13, Kalideres - Jakarta Barat <br />
-              11480 - Indonesia
-            </p>
-            <img src="/img/phone351.svg" alt="" />
-            <p>(+62) 21-2224 3333</p>
+            <h4>OUR STUDIO</h4>
+            <div class="location">
+              <img src="/img/big104.svg" alt="" width="20" height="20" />
+              <p>
+                Ruko cucruk, JI. Radio luar dalem jos <br />
+                No.12-13, Kalideres - Jakarta Barat <br />
+                11480 - Indonesia
+              </p>
+            </div>
+            <div class="phone">
+              <img src="/img/phone351.png" width="20" height="20" alt="" />
+              <p>(+62) 21-2224 3333</p>
+            </div>
           </div>
           <div class="footer-wrapper-main-right">
-            <h3>STAY IN TOUCH</h3>
-            <form action="#">
-              <input type="mail" placeholder="Email" />
-              <input id="input-paper" type="image" src="/img/paper122.svg" />
+            <h4>STAY IN TOUCH</h4>
+            <form stay-in-touch action="#">
+              <input
+                id="email"
+                type="email"
+                placeholder="Subcribe our newsletter"
+              />
+              <div class="email-senden">
+                <input id="input-paper" type="image" src="/img/paper122.png" />
+              </div>
             </form>
-            <img src="/img/facebook.svg" alt="" />
-            <img src="/img/twitter.svg" alt="" />
-            <img src="/img/dribbble.svg" alt="" />
-            <img src="/img/instagram.svg" alt="" />
-            <img src="/img/gplus.svg" alt="" />
-            <img src="/img/youtube.svg" alt="" />
+            <div class="social-media">
+              <img src="/img/facebook.svg" alt="" />
+              <img src="/img/twitter.svg" alt="" />
+              <img src="/img/dribbble.svg" alt="" />
+              <img src="/img/instagram.svg" alt="" />
+              <img src="/img/gplus.svg" alt="" />
+              <img src="/img/youtube.svg" alt="" />
+            </div>
           </div>
         </div>
 
-      </div>
-    </section>
-    <footer>
-      <div class="footer-wrapper-main">
-        <div class="footer-wrapper-main-left">
-          <figure class="tajam">
-            <img src="./img/logo.svg" alt="tajam" />
-            <figurcaption class="tajam-caption">tajam</figurcaption>
-          </figure>
-          <p>
-            lorem quis bibendum auctor, nisi elit <br />
-            consequat ipsum, nec sagittis sem nibh elit. <br />
-            Duis sed odio sit amet auctror a ornare odio <br />
-            non mauris vitae erat in elit
-          </p>
-        </div>
-        <div class="footer-wrapper-main-middle">
-          <h4>OUR STUDIO</h4>
-          <div class="location">
-            <img src="/img/big104.svg" alt="" width="20" height="20"/>
-            <p>
-              Ruko cucruk, JI. Radio luar dalem jos <br />
-              No.12-13, Kalideres - Jakarta Barat <br />
-              11480 - Indonesia
-            </p>
-          </div>
-          <div class="phone">
-            <img src="/img/phone351.png" width="20" height="20" alt="" />
-            <p>(+62) 21-2224 3333</p>
-          </div>
-        </div>
-        <div class="footer-wrapper-main-right">
-          <h4>STAY IN TOUCH</h4>
-          <form stay-in-touch action="#">
-              <input id="email" type="email" placeholder="Subcribe our newsletter" />
-            <div class="email-senden">
-              <input id="input-paper" type="image" src="/img/paper122.png" />
-            </div>
-          </form>
-        <div class="social-media">
-          <img src="/img/facebook.svg" alt="" />
-          <img src="/img/twitter.svg" alt="" />
-          <img src="/img/dribbble.svg" alt="" />
-          <img src="/img/instagram.svg" alt="" />
-          <img src="/img/gplus.svg" alt="" />
-          <img src="/img/youtube.svg" alt="" />
-        </div>
-      </div>
-      </div>
         <nav class="footer-wrapper-bottom">
-          <ul class="footer-bottom-left">         
+          <ul class="footer-bottom-left">
+
             <li>HELP</li>
             <li>TERMS & CONDITION</li>
             <li>PRIVACY</li>
           </ul>
-          <div class="footer-bottom-right">  
+
+          <div class="footer-bottom-right">
             <p>Copyright &#169; 2015 - Tajem Creative</p>
-          </div>       
+          </div>
         </nav>
-    </footer>
+      </footer>
 
     </main>
   </body>

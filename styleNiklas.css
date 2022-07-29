@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
-/* *********** Expertise-Section *************** */
+
+/**
+font-family: "Hammersmith One", sans-serif;
+
+font-family: "Playfair Display", serif;
+
+font-family: "Roboto", sans-serif;
+
+**/
 
 .expertise {
   font-size: 62.5%;
   background-color: white;
   color: black;
-
-
   min-height: 60vh;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,12 +23,16 @@
 .expertise p {
   margin-top: 0rem;
   color: gray;
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 .expertise h2 {
   margin-top: 2em;
-  font-size: 1.8rem;
+
+  font-size: 2.2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 #underline {
@@ -44,20 +53,17 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .card-section-top {
   display: flex;
   flex-direction: row;
   border-bottom: solid 0.1rem lightgray;
-  flex-wrap: wrap;
 }
 
 .card-section-bottom {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
 }
 
 .card {
@@ -71,12 +77,19 @@
 .card:is(:nth-child(1), :nth-child(2), :nth-child(4), :nth-child(5)) {
   border-right: solid 1px lightgray;
 }
-
+.card h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: rgba(65, 61, 75, 255);
+}
 .card p {
   color: lightgray;
-  font-size: 1rem;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: rgba(51, 51, 51, 255);
 }
-/* *********** MEET OUR AMAZING TEAM SECTION *************** */
+
 .meet-our-amazin-team {
   /* min-width: 90%; */
   background-image: url("img/bgk-header.png");
@@ -117,7 +130,6 @@
   flex-direction: column;
   border: solid 0.1rem lightgray;
   align-items: center;
-  flex-wrap: wrap;
 }
 .team-card:is(:nth-child(1), :nth-child(2), :nth-child(3)) {
   margin-right: 1rem;
@@ -126,9 +138,12 @@
 .team-card p {
   margin-top: 0rem;
   color: lightgray;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
 .team-card h4 {
   margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .picture {
@@ -139,7 +154,9 @@
 .hiring-wrapper {
   display: flex;
   flex-direction: column;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
   align-items: center;
   margin-top: 2rem;
 }
@@ -158,21 +175,20 @@
   display: flex;
   min-height: 60vh;
   justify-content: center;
-
-
   flex-wrap: wrap;
 }
 
 .contact-section h2 {
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 .contact-field {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-right: 5rem;
-  flex-wrap: wrap;
 }
 .contact-field input {
   padding: 0.8rem 12rem 0.8rem 0.3rem;
@@ -180,7 +196,6 @@
   border: solid 0.1rem lightgray;
   color: rgb(182, 180, 180);
 }
-
 #big-inputbox {
   padding: 0.5rem 12rem 8rem 0.3rem;
 }
@@ -196,7 +211,6 @@
 .partner-wrapper {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 .partner-logo-wrapper {
   display: flex;
@@ -209,14 +223,12 @@
   flex-direction: column;
   align-items: baseline;
   margin-right: 5rem;
-  flex-wrap: wrap;
 }
 
 .last-five-logos {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  flex-wrap: wrap;
 }
 footer {
   /* min-width: 90%; */
@@ -244,29 +256,32 @@ footer {
   justify-content: center;
 }
 
-.social-media{
+
+.social-media {
   margin-top: 8%;
 }
 
-.location{
+.location {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.location>img{
+
+.location > img {
   align-self: flex-start;
   padding-top: 1em;
-  padding-right: 0.8em; 
+  padding-right: 0.8em;
 }
 
-.phone{
+.phone {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.phone>img{
+
+.phone > img {
   padding-right: 0.8em;
 }
 
@@ -290,18 +305,22 @@ footer {
   gap: 24em;
 }
 
-.footer-bottom-left{
+
+.footer-bottom-left {
   display: flex;
   justify-content: center;
   gap: 1em;
+  font-family: "Roboto", sans-serif;
 }
 
-.footer-bottom-right{
+.footer-bottom-right {
   display: flex;
   padding: 0 1em;
 }
 
-.email-senden{
+
+.email-senden {
+
   position: relative;
   display: inline-block;
   top: 0.6em;
@@ -313,10 +332,10 @@ footer {
   border-radius: 3px;
 }
 
-#email{
+#email {
+
   color: rgba(255, 255, 255, 0.612);
   background-color: rgba(255, 255, 255, 0);
   padding: 0.6em;
   border-radius: 3px;
 }
-
