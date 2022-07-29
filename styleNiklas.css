@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
+/**
+font-family: "Hammersmith One", sans-serif;
+
+font-family: "Playfair Display", serif;
+
+font-family: "Roboto", sans-serif;
+
+**/
+
 .expertise {
   font-size: 62.5%;
   background-color: white;
@@ -13,12 +22,15 @@
 .expertise p {
   margin-top: 0rem;
   color: gray;
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-align: center;
+  font-family: "Playfair Display", serif;
 }
 .expertise h2 {
   margin-top: 2em;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 
 #underline {
@@ -63,17 +75,24 @@
 .card:is(:nth-child(1), :nth-child(2), :nth-child(4), :nth-child(5)) {
   border-right: solid 1px lightgray;
 }
-
+.card h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: rgba(65, 61, 75, 255);
+}
 .card p {
   color: lightgray;
-  font-size: 1rem;
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: rgba(51, 51, 51, 255);
 }
 
 .meet-our-amazin-team {
   /* min-width: 90%; */
   background-image: url("img/bgk-header.png");
   background-size: cover;
-  min-height: 70vh;
+  min-height: 60vh;
   color: white;
   display: flex;
   /* flex-wrap: wrap; */
@@ -114,9 +133,12 @@
 .team-card p {
   margin-top: 0rem;
   color: lightgray;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
 .team-card h4 {
   margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .picture {
@@ -127,7 +149,9 @@
 .hiring-wrapper {
   display: flex;
   flex-direction: column;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
   align-items: center;
   margin-top: 2rem;
 }
@@ -144,13 +168,14 @@
   display: flex;
   min-height: 60vh;
   justify-content: center;
-  /* border: solid 2px red; */
   flex-wrap: wrap;
 }
 
 .contact-section h2 {
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
 }
 .contact-field {
   display: flex;
@@ -273,6 +298,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 1em;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-bottom-right {
