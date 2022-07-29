@@ -16,7 +16,7 @@ font-family: 'Hammersmith One', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(./img/bgk-header.png);
+  background-image: url(img/bgk-header.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -126,7 +126,7 @@ font-family: 'Hammersmith One', sans-serif;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./img/bgk-middle.png);
+  background-image: url(img/bgk-middle.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
